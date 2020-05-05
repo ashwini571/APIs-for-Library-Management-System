@@ -23,11 +23,8 @@ public class Handler {
             case "POST":
                 try{
                     App.putBook(event.getBook());
-                    List<BookItem> books=new ArrayList<BookItem>();
-                    books.add(event.getBook());
-                    books.add(event.getBook());
 
-                    return books;
+                    return event.getBook();
                 }
                 catch(Exception e)
                 {
