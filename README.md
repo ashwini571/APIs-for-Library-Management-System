@@ -1,4 +1,4 @@
-#API For Lib Mgmt System
+# API For Lib Mgmt System
 
 ## Functionalities
 - Creating and adding books to database
@@ -54,5 +54,9 @@ Invoke the given URL with following payload schema and corresponding method:-
 
 ```
 ## UML Diagram and Screenshots
+![](images/libmgmt.png)
+![]()images/Screenshot (5).png)
+![]()images/Screenshot (6).png)
+![]()images/Screenshot (7).png)
 
 
