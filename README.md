@@ -52,15 +52,17 @@ Invoke the given URL with following payload schema and corresponding method:-
 }
 ```
 **Classes**
+```
 - Handler = Lambda handler class
 - BookItem = POJO for DB ojects
 - Event = POJO for requests
 - App = Provides CRUD methods
 
+```
 ## UML Diagram and Screenshots
 ![](images/libmgmt.png)
-![](images/Screenshot (5).png)
-![](images/Screenshot (6).png)
-![](images/Screenshot (7).png)
+![](images/Screenshot%20(5).png)
+![](images/Screenshot%20(6).png)
+![](images/Screenshot%20(7).png)
 
 
