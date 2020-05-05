@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.ashwini.libmgmt</OriginalElement>
+  <nodes>
+    <node x="121.23333333333332" y="362.0">org.ashwini.libmgmt.Handler</node>
+    <node x="152.0" y="148.0">org.ashwini.libmgmt.App</node>
+    <node x="128.36666666666665" y="0.0">org.ashwini.libmgmt.BookItem</node>
+    <node x="0.0" y="192.0">org.ashwini.libmgmt.Event</node>
+    <node x="0.0" y="461.0">org.ashwini.libmgmt.AppTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.ashwini.libmgmt.Handler" target="org.ashwini.libmgmt.BookItem">
+      <point x="83.33333333333331" y="-27.0" />
+      <point x="329.5666666666666" y="337.0" />
+      <point x="370.5" y="337.0" />
+      <point x="370.5" y="118.0" />
+      <point x="226.36666666666665" y="118.0" />
+      <point x="42.0" y="49.0" />
+    </edge>
+    <edge source="org.ashwini.libmgmt.App" target="org.ashwini.libmgmt.BookItem">
+      <point x="0.0" y="-82.0" />
+      <point x="256.0" y="128.0" />
+      <point x="198.36666666666665" y="128.0" />
+      <point x="14.0" y="49.0" />
+    </edge>
+    <edge source="org.ashwini.libmgmt.Event" target="org.ashwini.libmgmt.BookItem">
+      <point x="33.0" y="-38.0" />
+      <point x="99.0" y="128.0" />
+      <point x="170.36666666666665" y="128.0" />
+      <point x="-14.0" y="49.0" />
+    </edge>
+    <edge source="org.ashwini.libmgmt.Handler" target="org.ashwini.libmgmt.App">
+      <point x="0.0" y="-27.0" />
+      <point x="246.23333333333332" y="337.0" />
+      <point x="256.0" y="337.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="org.ashwini.libmgmt.Handler" target="org.ashwini.libmgmt.Event">
+      <point x="-83.33333333333331" y="-27.0" />
+      <point x="162.9" y="337.0" />
+      <point x="66.0" y="337.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7999999999999997" x="-50.87499999999966" y="252.6250000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

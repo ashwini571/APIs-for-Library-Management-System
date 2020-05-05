@@ -1,27 +1,23 @@
 package org.ashwini.libmgmt;
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBIndexHashKey;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBIgnore;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+import com.amazonaws.services.dynamodbv2.datamodeling.*;
 
 @DynamoDBTable(tableName = "Books")
 public class BookItem {
-    private String name;
+    private String title;
     private String pub;
     private String author;
 
 
-    @DynamoDBHashKey(attributeName="name")
-    public String getName() {
-        return name;
+    @DynamoDBHashKey(attributeName="title")
+    public String getTitle() {
+        return title;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    @DynamoDBIndexHashKey(globalSecondaryIndexName = "authorIndex",attributeName="author")
+    @DynamoDBRangeKey(attributeName = "author")
     public String getAuthor() {
         return author;
     }
@@ -29,7 +25,7 @@ public class BookItem {
         this.author = author;
     }
 
-    @DynamoDBIndexHashKey(globalSecondaryIndexName="pubIndex" ,attributeName="pub")
+
     public String getPub() {
         return pub;
     }
